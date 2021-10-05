@@ -1,0 +1,77 @@
+.navBar,
+.navBarDark {
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        margin: 0 1rem 0 2rem;
+    }
+
+    button {
+        width: 11rem;
+        height: 3rem;
+    }
+}
+
+
+.navBar {
+    transition: var(--transition);
+    color: white;
+
+    button {
+        background: transparent;
+        color: white;   
+        border: 1px solid white;
+        
+    }
+}
+
+.navBarDark {
+    color: var(--dark-headline);
+    transition: var(--transition);
+
+    button {
+        background: var(--dark-background-secondary);
+        color: var(--dark-button-text);
+    }
+}
+
+button {
+    height: 100%;
+    width: 15rem;
+
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+.left,
+.right {
+    flex: 1;
+    display: flex;
+}
+
+.left {
+    justify-content: space-evenly;
+
+}
+
+.right {
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navBar,
+    .navBarDark {
+        display: none;
+    }
+
+}

@@ -1,0 +1,39 @@
+.main {
+    margin: 3rem 0 0 0;
+}
+
+.slider {
+    min-height: 300px;
+    padding: 0 2rem;
+}
+
+.carousel {
+    background: white;
+    transition: var(--transition);
+    h1 {
+        padding: 1rem 0 0 2rem;
+    }
+}
+
+.carouselDark {
+    background: var(--dark-background);
+    transition: var(--transition);
+    h1 {
+        padding: 2rem;
+        color: var(--dark-headline)
+    }
+}
+
+.skill {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 376px) {
+
+    .main {
+        margin: 0;
+    }
+}

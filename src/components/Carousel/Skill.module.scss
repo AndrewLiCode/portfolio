@@ -1,0 +1,35 @@
+.main,
+.darkMain {
+    height: 14rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    h4 {
+        padding-bottom: 1rem;
+        font-size: 25px;
+    }
+    p {
+        text-align: center;
+    }
+    svg {
+        height: 4rem;
+        width: 4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.darkMain {
+
+    h4 {
+        color: var(--dark-headline);
+    }
+
+    p {
+        color: var(--dark-headline);
+    }
+    svg {
+        color: var(--dark-paragraph);
+    }
+}

@@ -1,0 +1,46 @@
+.bannerContainerDark,
+.bannerContainer {
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+    overflow: hidden;
+    transition: var(--transition);
+
+    img {
+        transition: var(--transition);
+
+    }
+}
+
+.bannerContainerDark {
+    background: var(--dark-background-secondary);
+    transition: var(--transition);
+}
+
+.illustration {
+    width: 70%;
+    
+    border: 1px solid red;
+}
+
+.banner {
+    width: 100vw;
+    height: 65vh;
+    transition: var(--transition);
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .banner {
+        height: 36vh;
+        transition: var(--transition);
+    }
+
+    .bannerContainer,
+    .bannerContainerDark {
+        height: 19vh;
+        transition: var(--transition);
+        overflow: visible;
+    }
+}

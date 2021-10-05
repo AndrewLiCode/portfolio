@@ -1,0 +1,30 @@
+.main, .darkMain {
+    padding: 1rem;
+    position: absolute;
+    top: 5rem;
+    left: .2rem;
+    transition: var(--transition);
+    transform: translate(20px);
+    h1 {
+        font-size: 40px;
+    }
+    code {
+        display: flex;
+        padding: .5rem 0;
+    }
+}
+
+.main {
+    background: gainsboro;
+    color: black;
+}
+
+.darkMain {
+    background: var(--dark-gray);
+}
+
+@media only screen and (min-width: 1000px) {
+    .main, .darkMain {
+        display: none;
+    }
+}

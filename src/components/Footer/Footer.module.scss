@@ -1,0 +1,33 @@
+.main,
+.darkMain {
+
+    color: white;
+    position: relative;
+
+    svg {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+.main {
+    background: var(--color-darkblue);
+}
+
+.darkMain {
+    background: var(--dark-background);
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 920px) {
+    .iconContainer svg {
+        height: 2rem;
+        width: 2rem;
+    }
+}

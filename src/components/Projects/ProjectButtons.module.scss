@@ -1,0 +1,45 @@
+.buttonContainer,
+.darkButtonContainer {
+    display: flex;
+
+}
+
+.buttonContainer {
+    .live {
+        color: var(--light-tertiary);
+        border: 1px solid var(--light-tertiary);
+        background-color: white;
+
+    }
+
+    .code {
+
+        background: var(--light-tertiary);
+        color: white;
+    }
+
+}
+
+.darkButtonContainer {
+    .live {
+        color: var(--dark-headline);
+        border: 1px solid var(--dark-paragraph);
+        background-color: var(--dark-paragraph);
+
+
+    }
+
+    .code {
+        background: var(--dark-button);
+        color: white;
+    }
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3rem;
+    margin: 6rem;
+}
